@@ -8,14 +8,60 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./header-title.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="./records.css">
     <title>CRUD</title>
 </head>
 <body>
     <header>
-        <h1>Cadastro de Clientes</h1>
+        <h1 class="header-title">Cadastro de Clientes</h1>
     </header>
     <main>
-        main
+        <button type ="button" class="button blue">Cadastrar Cliente</button>
+        <table class="records">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Celular</th>
+                    <th>Cidade</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maria</td>
+                    <td>maria@email.com</td>
+                    <td>(11)999999999</td>
+                    <td>Campinas</td>
+                    <td>
+                        <button type="button" class="button green">editar</button>
+                        <button type="button" class="button red">excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Henrique</td>
+                    <td>rick@email.com</td>
+                    <td>(11)999999999</td>
+                    <td>Guarulhos</td>
+                    <td>
+                        <button type="button" class="button green">editar</button>
+                        <button type="button" class="button red">excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Seu Zé</td>
+                    <td>zeh_seu@email.com</td>
+                    <td>(11)999999999</td>
+                    <td>São Paulo</td>
+                    <td>
+                        <button type="button" class="button green">editar</button>
+                        <button type="button" class="button red">excluir</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </main>
     <footer>
         footer
